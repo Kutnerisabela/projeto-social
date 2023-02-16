@@ -20,14 +20,10 @@ body{
     background-attachment: fixed;
 }
 main{
-    margin: 0px;
-    padding: 0px;
     height: 100vh;
     position: relative;
 }
 section#telefone{
-    margin: 0px;
-    padding: 0px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -36,4 +32,11 @@ section#telefone{
     height: 346px;
     width: 172px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+#tela{
+    position: relative;
+    top: 45px;
+    left: 14px;
+    width: 145px;
+    height: 258px;
 }
